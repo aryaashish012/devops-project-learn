@@ -71,10 +71,8 @@ buildNumber.properties
 
 target/
 .classpath
-        .project
-        .settings/
-        allure-results/
-      
-        
-        target/
+  .project
+  .settings/
+  allure-results/
+  target/
         
