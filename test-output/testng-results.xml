@@ -26,12 +26,12 @@
       <![CDATA[Actual Result =Connect with friends and the world around you on Facebook.]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-23T20:39:31 EDT" name="Suite" finished-at="2025-06-23T20:39:36 EDT" duration-ms="5170">
+  <suite started-at="2025-06-23T20:48:59 EDT" name="Suite" finished-at="2025-06-23T20:49:02 EDT" duration-ms="3441">
     <groups>
     </groups>
-    <test started-at="2025-06-23T20:39:31 EDT" name="Test" finished-at="2025-06-23T20:39:36 EDT" duration-ms="5170">
+    <test started-at="2025-06-23T20:48:59 EDT" name="Test" finished-at="2025-06-23T20:49:02 EDT" duration-ms="3441">
       <class name="test.BasicValidation">
-        <test-method signature="emailValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:39:34 EDT" name="emailValidation" finished-at="2025-06-23T20:39:35 EDT" duration-ms="1124" status="PASS">
+        <test-method signature="emailValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:49:02 EDT" name="emailValidation" finished-at="2025-06-23T20:49:02 EDT" duration-ms="88" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Email or phone number]]>
@@ -41,7 +41,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- emailValidation -->
-        <test-method signature="loginValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:39:35 EDT" name="loginValidation" finished-at="2025-06-23T20:39:35 EDT" duration-ms="69" status="PASS">
+        <test-method signature="loginValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:49:02 EDT" name="loginValidation" finished-at="2025-06-23T20:49:02 EDT" duration-ms="50" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Log In]]>
@@ -51,7 +51,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginValidation -->
-        <test-method signature="passValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:39:35 EDT" name="passValidation" finished-at="2025-06-23T20:39:35 EDT" duration-ms="33" status="PASS">
+        <test-method signature="passValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:49:02 EDT" name="passValidation" finished-at="2025-06-23T20:49:02 EDT" duration-ms="30" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Password]]>
@@ -61,7 +61,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- passValidation -->
-        <test-method signature="welcomeMessage()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:39:35 EDT" name="welcomeMessage" finished-at="2025-06-23T20:39:35 EDT" duration-ms="61" status="PASS">
+        <test-method signature="welcomeMessage()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:49:02 EDT" name="welcomeMessage" finished-at="2025-06-23T20:49:02 EDT" duration-ms="32" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Connect with friends and the world around you on Facebook.]]>
@@ -73,11 +73,11 @@
         </test-method> <!-- welcomeMessage -->
       </class> <!-- test.BasicValidation -->
       <class name="test.BaseTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BaseTest@1224144a]" started-at="2025-06-23T20:39:31 EDT" name="setup" finished-at="2025-06-23T20:39:34 EDT" duration-ms="3306" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.BaseTest@1224144a]" started-at="2025-06-23T20:48:59 EDT" name="setup" finished-at="2025-06-23T20:49:02 EDT" duration-ms="2679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BaseTest@1224144a]" started-at="2025-06-23T20:39:35 EDT" name="tearDown" finished-at="2025-06-23T20:39:36 EDT" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BaseTest@1224144a]" started-at="2025-06-23T20:49:02 EDT" name="tearDown" finished-at="2025-06-23T20:49:02 EDT" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
