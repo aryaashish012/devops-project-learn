@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Expected Result =Email or phone number]]>
@@ -26,12 +26,64 @@
       <![CDATA[Actual Result =Connect with friends and the world around you on Facebook.]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-23T20:01:21 EDT" name="Suite" finished-at="2025-06-23T20:01:24 EDT" duration-ms="3614">
+  <suite started-at="2025-06-23T20:08:42 EDT" name="Suite" finished-at="2025-06-23T20:08:46 EDT" duration-ms="3626">
     <groups>
     </groups>
-    <test started-at="2025-06-23T20:01:21 EDT" name="Test" finished-at="2025-06-23T20:01:24 EDT" duration-ms="3614">
+    <test started-at="2025-06-23T20:08:42 EDT" name="Test" finished-at="2025-06-23T20:08:46 EDT" duration-ms="3626">
+      <class name="test.nextPage">
+        <test-method signature="login1Validation()[pri:0, instance:test.nextPage@2235eaab]" started-at="2025-06-23T20:08:45 EDT" name="login1Validation" finished-at="2025-06-23T20:08:45 EDT" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:309)
+at org.openqa.selenium.By.className(By.java:100)
+at test.nextPage.login1Validation(nextPage.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1Validation -->
+      </class> <!-- test.nextPage -->
       <class name="test.BasicValidation">
-        <test-method signature="emailValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:01:24 EDT" name="emailValidation" finished-at="2025-06-23T20:01:24 EDT" duration-ms="164" status="PASS">
+        <test-method signature="emailValidation()[pri:0, instance:test.BasicValidation@13526e59]" started-at="2025-06-23T20:08:45 EDT" name="emailValidation" finished-at="2025-06-23T20:08:45 EDT" duration-ms="167" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Email or phone number]]>
@@ -41,7 +93,57 @@
             </line>
           </reporter-output>
         </test-method> <!-- emailValidation -->
-        <test-method signature="loginValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:01:24 EDT" name="loginValidation" finished-at="2025-06-23T20:01:24 EDT" duration-ms="67" status="PASS">
+        <test-method signature="login1Validation()[pri:0, instance:test.BasicValidation@13526e59]" started-at="2025-06-23T20:08:45 EDT" name="login1Validation" finished-at="2025-06-23T20:08:45 EDT" duration-ms="5" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:309)
+at org.openqa.selenium.By.className(By.java:100)
+at test.BasicValidation.login1Validation(BasicValidation.java:59)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1Validation -->
+        <test-method signature="loginValidation()[pri:0, instance:test.BasicValidation@13526e59]" started-at="2025-06-23T20:08:45 EDT" name="loginValidation" finished-at="2025-06-23T20:08:45 EDT" duration-ms="61" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Log In]]>
@@ -51,7 +153,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginValidation -->
-        <test-method signature="passValidation()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:01:24 EDT" name="passValidation" finished-at="2025-06-23T20:01:24 EDT" duration-ms="52" status="PASS">
+        <test-method signature="passValidation()[pri:0, instance:test.BasicValidation@13526e59]" started-at="2025-06-23T20:08:45 EDT" name="passValidation" finished-at="2025-06-23T20:08:45 EDT" duration-ms="34" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Password]]>
@@ -61,7 +163,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- passValidation -->
-        <test-method signature="welcomeMessage()[pri:0, instance:test.BasicValidation@7098b907]" started-at="2025-06-23T20:01:24 EDT" name="welcomeMessage" finished-at="2025-06-23T20:01:24 EDT" duration-ms="41" status="PASS">
+        <test-method signature="welcomeMessage()[pri:0, instance:test.BasicValidation@13526e59]" started-at="2025-06-23T20:08:45 EDT" name="welcomeMessage" finished-at="2025-06-23T20:08:45 EDT" duration-ms="40" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Expected Result =Connect with friends and the world around you on Facebook.]]>
@@ -73,11 +175,11 @@
         </test-method> <!-- welcomeMessage -->
       </class> <!-- test.BasicValidation -->
       <class name="test.BaseTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.BaseTest@1224144a]" started-at="2025-06-23T20:01:21 EDT" name="setup" finished-at="2025-06-23T20:01:23 EDT" duration-ms="2637" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.BaseTest@700fb871]" started-at="2025-06-23T20:08:42 EDT" name="setup" finished-at="2025-06-23T20:08:45 EDT" duration-ms="2855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BaseTest@1224144a]" started-at="2025-06-23T20:01:24 EDT" name="tearDown" finished-at="2025-06-23T20:01:24 EDT" duration-ms="430" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BaseTest@700fb871]" started-at="2025-06-23T20:08:45 EDT" name="tearDown" finished-at="2025-06-23T20:08:46 EDT" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

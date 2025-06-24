@@ -3,11 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.BasicValidation">
+      <class name="test.nextPage">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="loginPerformValidation"/>
+          <include name="login1Validation"/>
+        </methods>
+      </class> <!-- test.nextPage -->
+      <class name="test.BasicValidation">
+        <methods>
+          <include name="login1Validation"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- test.BasicValidation -->
     </classes>
